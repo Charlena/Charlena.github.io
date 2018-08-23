@@ -1,0 +1,89 @@
+/* font-family: 'Raleway', sans-serif; */
+/* font-family: 'Montserrat', sans-serif; */
+body {
+    font-family: 'Montserrat', sans-serif;    
+}
+h1, h2, h3{
+    font-family: 'Raleway', sans-serif;
+}
+.hero{
+    background-image: url("../images/code.jpg");
+    min-height: 550px; 
+    position: relative;
+}
+.hero img{
+    margin: 116px auto 0;
+}
+.hero h1, .hero h2{
+    background: #000;
+    color: #108af3;
+}
+.nav-bar li{
+    display: inline;
+    border: 0;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 1rem;
+    text-decoration: none;
+    text-align: center;
+}
+.resume a{
+    padding: 5px;
+    font-size:15px;
+    color:blue;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+.nav-bar a{
+    font-size:22px;
+}
+.nav-bar{
+    background-color: black;
+}
+.nav-bar ul{
+    margin-top: 10px;
+    padding:0px;
+}
+
+.about-me {
+    background-image: linear-gradient(to top,#00969c , #00969c, #007797, #005887, #05386b);
+    color: black;
+    padding-bottom: 36px;
+}
+.about-me p{
+    border-radius: 20px;
+    padding: 5px;
+    color:#000;
+    font-size:17px;
+}
+.projects{
+    color: #000;
+    background-image: url("../images/roses.jpg");
+}
+.projects img{
+    color:black;
+    padding: 10px;
+}
+.projects p{
+    color: #000;   
+    font-size:17px;
+}
+.projects h3 {
+    border-left: 5px solid #000;
+    padding-left: 5px;
+}
+.contact{
+    background-color: black;
+    text-align: center;
+}
+.contact h1,h5{
+    font-size: 15;
+    color: #337ab7;
+    text-align: center;
+}
+.contact img{
+    border:3px solid black;
+    border-radius: 5px;
+    
+}
+
