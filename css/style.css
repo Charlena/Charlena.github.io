@@ -30,9 +30,10 @@ h1, h2, h3{
 .resume a{
     padding: 5px;
     font-size:15px;
-    color:blue;
+    color:white;
     border: 3px solid black;
     border-radius: 15px;
+    background-image: linear-gradient(to top,#00969c , #00969c, #007797, #005887, #05386b);
 }
 .nav-bar a{
     font-size:22px;
@@ -72,6 +73,14 @@ h1, h2, h3{
     border-left: 5px solid #000;
     padding-left: 5px;
 }
+.projects a{
+    background-image: linear-gradient(to top,#00969c , #00969c, #007797, #005887, #05386b);
+    padding: 5px;
+    font-size:15px;
+    color:white;
+    border: 3px solid black;
+    border-radius: 15px;}
+
 .contact{
     background-color: black;
     text-align: center;
